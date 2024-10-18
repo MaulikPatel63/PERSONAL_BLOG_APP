@@ -99,7 +99,7 @@ To run this project, you will need to add the following environment variables to
 
 #### User Signup
 
-```http
+```
   POST /api/v1/auth/signup
 ```
 
@@ -111,7 +111,7 @@ To run this project, you will need to add the following environment variables to
 
 #### User Signup
 
-```http
+```
   POST /api/v1/auth/login
 ```
 
@@ -122,7 +122,7 @@ To run this project, you will need to add the following environment variables to
 
 #### Create Blog
 
-```http
+```
   POST /api/v1/blog/blog-add
 ```
 
@@ -135,7 +135,7 @@ To run this project, you will need to add the following environment variables to
 
 #### Get All Blog
 
-```http
+```
   GET /api/v1/blog/blog-get
 ```
 
@@ -145,7 +145,7 @@ To run this project, you will need to add the following environment variables to
 
 #### Get All Blog
 
-```http
+```
   GET /api/v1/blog/blog-get-cat/${cat}
 ```
 
@@ -156,7 +156,7 @@ To run this project, you will need to add the following environment variables to
 
 #### Get Blog By ID
 
-```http
+```
   GET /api/v1/blog/blog-get/${id}
 ```
 
@@ -168,7 +168,7 @@ To run this project, you will need to add the following environment variables to
 
 #### Delete Blog By ID
 
-```http
+```
   GET /api/v1/blog/blog-delete/${id}
 ```
 
