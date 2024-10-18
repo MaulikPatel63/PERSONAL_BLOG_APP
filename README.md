@@ -140,7 +140,7 @@ To run this project, you will need to add the following environment variables to
 ```
 
 | Parameter | Description |
-| :-------- ||:-------------------------------- |
+| :-------- |:-------------------------------- |
 | `token` | **Required**. token from cookies |
 
 #### Get All Blog
@@ -150,7 +150,7 @@ To run this project, you will need to add the following environment variables to
 ```
 
 | Parameter | Description |
-| :-------- ||:-------------------------------- |
+| :-------- |:-------------------------------- |
 | `car` | **Required**. cat to fetch specific categories data |
 | `token` | **Required**. token from cookies |
 
@@ -161,7 +161,7 @@ To run this project, you will need to add the following environment variables to
 ```
 
 | Parameter | Description |
-| :-------- ||:-------------------------------- |
+| :-------- |:-------------------------------- |
 | `id` | **Required**. id to fetch specific Blog data |
 | `token` | **Required**. token from cookies |
 
@@ -173,7 +173,7 @@ To run this project, you will need to add the following environment variables to
 ```
 
 | Parameter | Description |
-| :-------- ||:-------------------------------- |
+| :-------- |:-------------------------------- |
 | `id` | **Required**. id to delete specific Blog data |
 | `token` | **Required**. token from cookies |
 
