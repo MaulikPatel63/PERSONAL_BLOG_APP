@@ -1,5 +1,5 @@
 
-# 📰 Personal Blog Application
+# 📰 Personal Blog Application - Backend
 
 ## 🌟 Overview
 
