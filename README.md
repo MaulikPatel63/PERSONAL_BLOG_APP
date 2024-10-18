@@ -1,70 +1,102 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# 📰 Personal Blog Application - Frontend
 
-## Available Scripts
+## 🌟 Overview
 
-In the project directory, you can run:
+This is the frontend of the Blog App built with React.js. The application allows users to interact with blog posts by creating, reading, updating, and deleting them. It also features a user-friendly UI for smooth navigation and interaction.
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
 
-### `npm run build`
+## ✨ Features
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+- **📝 Home Page**: Displays all blog posts in reverse chronological order.
+- **📖 Create Posts**: Users can add new blog posts with a title and content.
+- **⏰ View Post Details**: Click on a post to view the full content.
+- **✏️ Update Post**: Users can update the title and content of an existing post.
+- **🗑️ Delete Post**: Remove posts from the list with a single click.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## 🛠️ Technologies Used
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- **🔙 Frontend Framework:** React.js
+- **💾 State Management:** React Context API
+- **🔑 Authentication:** Axios
+- **📧 HTTP Requests:** Nodemailer
+- **🛡️ Styling:** CSS
+- **🌐 Routing Requests:** React Router
+- **🗂️ Deployment:** Vercel
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+## 📦 Dependencies
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+Here’s a list of all the dependencies used in this project along with their versions:
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+```bash{
+"axios": "^1.7.7",
+"dompurify": "^3.1.7",
+"moment": "^2.30.1",
+"react": "^18.3.1",
+"react-dom": "^18.3.1",
+"react-quill": "^2.0.0",
+"react-router-dom": "^6.27.0",
+"react-scripts": "5.0.1",
+"web-vitals": "^2.1.4"
+  ```
 
-## Learn More
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+## 🚀 Setup and Installation
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+Clone the project
 
-### Code Splitting
+```bash
+  git clone https://github.com/MaulikPatel63/Personal_Blog_App
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
+Go to the project directory
 
-### Analyzing the Bundle Size
+```bash
+  cd Personal_Blog_App/frontend
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+Install dependencies
 
-### Making a Progressive Web App
+```bash
+  npm install
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+Start the server
 
-### Advanced Configuration
+```bash
+  npm start
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+API will be available at:
 
-### Deployment
+```bash
+  http://localhost:3000
+```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
 
-### `npm run build` fails to minify
+## 🌐 Deployment
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+The backend is deployed on Vercel.
+
+- **Live Backend URL :** [https://personal-blog-app-frontend-bay.vercel.app/](https://personal-blog-app-frontend-bay.vercel.app/)
+
+
+## 🔄 API Communication
+
+The frontend communicates with the backend API using Axios to fetch, create, update, and delete blog posts. Ensure the backend server is running for the frontend to function correctly.
+
+
+## 📸 Screenshots
+
+### Home Page
+![Home Page](./public/home_page.png)
+
+### Post Details Page
+![Post Details](./public/blog_page.png)
+
